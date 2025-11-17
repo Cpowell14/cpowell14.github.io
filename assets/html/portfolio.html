@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Carter's Portfolio</title>
+        <link rel="stylesheet" href="../css/styling.css">
+    </head>
+
+    <body>
+        <div class="banner_container">
+            <div class="banner">
+                <img src="../images/headshot.jpeg" class="icon">
+                <div class="nav_container">
+                    <button onclick="moveIntoView('home')" class="section_button">Home</button>
+                    <button onclick="moveIntoView('about')" class="section_button">About Me</button>
+                    <button onclick="moveIntoView('education')" class="section_button">Education</button>
+                    <button onclick="moveIntoView('project')" class="section_button">Projects</button>
+                    <button onclick="moveIntoView('contact')" class="section_button">Contact</button>
+                </div>
+            </div>
+        </div>
+
+       
+        
+        <div id = "home" class="opener_content">
+            <div class="left_welcome_background_detail">
+                <div class="whitestar1"></div>
+                <div class="whitestar1"></div>
+                <div class="whitestar1"></div>
+                <div class="whitestar1"></div>
+                <div class="whitestar1"></div>
+            </div>
+            <div class="right_welcome_background_detail">
+                <div class="whitestar2"></div>
+                <div class="whitestar2"></div>
+                <div class="whitestar2"></div>
+                <div class="whitestar2"></div>
+                <div class="whitestar2"></div>
+            </div>
+            <h1 class="subsection_header">Welcome</h2>
+            <p class="intro_tag">By following the navigation on tabs up top, or by scrolling you can dive 
+                deeper into multiple aspects of my life. </p>
+            <p class="resume_tag">Or if you'd like a summary you can find my resume below:</p>
+            <div class="resume_button_container">
+                <button onclick="downloadResume()" class="resume_button">Resume</button>
+            </div>
+            <p class="subtext_tag">This webpage is still underdevelopment and will get continual updates</p>
+        </div>
+
+        <div id = "about" class="aboutme_content">
+            <div class="subcontent_third">
+                <div class="subcontent_third_picframe">
+                    <img src="../images/general_about.jpg" class="subcontent_third_picture"></img>
+                </div>
+                <div class="subcontent_third_text_right">
+                    I'd just like to welcome, and thank you for taking interest in my life.
+                    My name is Carter Powell, a graduate of the University of Nebraska who
+                    has spent his entire life obsessed with technology and the mathematics 
+                    behind it. After my you adolescense of loving mathematics and logic based
+                    problems, my father helped spark my curiousity in computing by letting me 
+                    build his desktop at 12 years old. From there on I knew what I wanted to do
+                    with my life; however, I have found other passions I enjoy as well that has shaped
+                    who I am today.
+                </div>
+            </div>
+            <div class="subcontent_third">
+                <div class="subcontent_third_text_left">
+                    One of those passions is my love for music. Starting in middle school the students in my class
+                    and I were given a choice in art credits and I chose to play in the concert band. This original
+                    mandatory course turned into a major part in my life as I loved to express myself through music.
+                    Since taking that very first concert band course, I've played trombone for 13 years in concert band
+                    marching band, and pep band and fulfilling my ambitions in playing in the Cornhusker Marching Band for
+                    4 years. On top of this, playing trombone also has given me the opportunities to perform in Carnigie Hall
+                    in New York as well as the Rose Bowl Parade in 2017 and the New York Saint Patricks Day Parade in 2019.
+                    These experiences helped me grow as an individual and showed me the work required to perform at the highest levels
+                </div>
+                <div class="subcontent_third_picframe">
+                    <img src="../images/band.jpg" class="subcontent_third_picture"></img>
+                </div>
+            </div>
+            <div class="subcontent_third">
+                <div class="subcontent_third_picframe">
+                    <img src="../images/fraternity.jpg" class="subcontent_third_picture"></img>
+                </div>
+                <div class="subcontent_third_text_right">
+                    Another passion of mine in college was being involved as a member of Sigma Alpha Mu fraternity. In this fraternity I
+                    learned many skills and lessons that my other passions/education never taught me. In this organization, I started
+                    as a new member and immediately took a leadership role as the Alumni Chair for the first year. This allowed to reach out 
+                    to many of our beloved alumni and build connections within the first year. The second year, I chose to take a different
+                    responsibility to assist in the transition of new members as Recruitment Chair. This helped build off the original skills 
+                    of making connections. By my third year my work for the fraternity had been acknowledged and even though I had a busy schedule
+                    with my commitments to my double major and the Cornhusker Marching Band I was elected to the Executive Board of the fraternity 
+                    as Exchequer (treasurer). By the end of my time as Exchequer, our fraternity had its first year not in debt in 5 years and hasn't 
+                    been in debt since. The leadership and life lessons taught to me in the Sigma Alpha Mu fraternity is something I'll never forget.
+                </div>
+            </div>
+            
+        </div>
+        <div id = "education" class="education_content">
+            <div class="subcontent_split_container">
+                <div class="subcontent_quad">
+                    <div class="subcontent_quad_text_container">
+                        <div class="subcontent_quad_text_header">
+                            Graduate Degree
+                        </div>
+                        <div class="subcontent_quad_text_body">
+                            <p class="education_bold">Master of Science - Computer Science</p>
+                            <p class="education_bold">Topics Studied</p>
+                            <p class="education_italic">University of Nebraska-Lincoln</p>
+                            <p class="education_italic">Computational Linguistics</p>
+                            <p class="education_italic">August 2023 to May 2025</p>
+                            <p class="education_italic">Communication Networks</p>
+                            <p class="education_italic">GPA: 3.61</p>
+                            <p class="education_italic">Cryptography</p>
+                            <p class="education_italic"></p>
+                            <p class="education_italic">Graph Theory</p>
+                            <p class="education_italic"></p>
+                            <p class="education_italic">Design and Analysis of Algorithms</p>
+                            <p class="education_italic"></p>
+                            <p class="education_italic">Database Systems</p>
+                            <p class="education_italic"></p>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="subcontent_quad">
+                    <div class="subcontent_quad_text_container">
+                        <div class="subcontent_quad_text_header">
+                            Undergraduate Degrees
+                        </div>
+                        <div class="subcontent_quad_text_body">
+                            <p class="education_bold">Bachelor of Science - Computer Science</p>
+                            <p class="education_bold">Bachelor of Science - Mathematics</p>
+                            <p class="education_italic">University of Nebraska-Lincoln</p>
+                            <p class="education_italic">University of Nebraska-Lincoln</p>
+                            <p class="education_italic">August 2019 to May 2023</p>
+                            <p class="education_italic">August 2019 to May 2023</p>
+                            <p class="education_italic">GPA: 3.61</p>
+                            <p class="education_italic">GPA: 3.61</p>
+                            <p class="education_bold">Computer Science Topics</p>
+                            <p class="education_bold">Mathematics Topics</p>
+                            <p class="education_italic">Data Mining, Data and Network Security, Numerical Analysis</p>
+                            <p class="education_italic">Differential Equations, Linear Algebra, Calculus</p>
+                            <p class="education_italic">Automata, Computer Architecture, Software Engineering</p>
+                            <p class="education_italic">Elementary Analysis, Modern Algebra </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="subcontent_quad">
+                    <div class="subcontent_quad_text_container">
+                        <div class="subcontent_quad_text_header">
+                            Skills Learned
+                        </div>
+                        <div class="subcontent_quad_text_body">
+                            <p class="education_bold">Coding Languages </p>
+                            <p class="education_bold">Frameworks and Tools</p>
+                            <p class="education_italic">C, C#, C++</p>
+                            <p class="education_italic">.NET</p>
+                            <p class="education_italic">Java, Python</p>
+                            <p class="education_italic">MySQL, MLPQ</p>
+                            <p class="education_italic">HTML, CSS, Javascript</p>
+                            <p class="education_italic">Django, Vue.js</p>
+                            <p class="education_italic">MATLAB</p>
+                            <p class="education_italic">Git</p>
+                            <p class="education_italic">Unix/Commandline Prompts</p>
+                            <p class="education_italic">Weka</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="subcontent_quad">
+                    <div class="education_photo_frame">
+                        <img src="../images/graduation.jpeg" class="education_photo"></img>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id = "project" class="project_content">
+             <div class="subcontent_split_container">
+                <div class="subcontent_half_text">
+                    <div class="subcontent_half_stacked_container">
+                        <div class="subcontent_header_textbox">
+                            Completed Projects
+                        </div>
+                        <div class="subcontent_stacked_textbox">
+                            <p class="project_bold1">Automated Feature Letter Analysis</p>
+                            <p class="project_bold1">Personal Porfolio Website</p>
+                            <p class="project_bold2">Description: </p>
+                            <p class="project_bold2">Description:</p>
+                            <p class="project_italic">
+                                Research conducted using convolutional neural networks to analyze
+                                and compare over 8000 glyphs to try to draw connections between them.
+                            </p>
+                            <p class="project_italic">
+                                Along with gaining more experience with front-end development, 
+                                this website's goal is to build connections and start making 
+                                work that is public.
+                            </p>
+                            <p class="project_bold2">Languages, Frameworks, Libraries Used: </p>
+                            <p class="project_bold2">Languages, Frameworks, Libraries Used:</p>
+                            <p class="project_italic">Python, HTML, CSS, Tensorflow, OpenCV, Django</p>
+                            <p class="project_italic">HTML, CSS, Javascript (no frameworks/libraries used)</p>
+                            
+                        </div>
+                    </div>
+                    <div class="subcontent_half_stacked_container">
+                        <div class="subcontent_header_textbox">
+                            Planned Projects
+                        </div>
+                        <div class="subcontent_stacked_textbox">
+                            <p class="project_bold1">College Football Analytics</p>
+                                <p class="project_bold1">Desktop/Mobile Application</p>
+                                <p class="project_bold2">Goal with Planned Project: </p>
+                                <p class="project_bold2">Goal with Planned Project:</p>
+                                <p class="project_italic">
+                                    Build an application in a subject non-technology related, but in a subject I
+                                    personally have a lot of interest in. Trying to get more experience in large-data 
+                                    modeling and APIs.
+                                </p>
+                                <p class="project_italic">
+                                    Put together the knowledge and experience gained within the last six years of
+                                    college to build a full application from the ground up. Build upon my knowledge
+                                    of full-stack development and further my understanding on proper practices not 
+                                    entirely focus on one aspect of the development process. 
+                                </p>
+                            </div>
+                    </div>
+                    
+                </div>
+                <div class="subcontent_half_image">
+                    <div class="subcontent_half_container">
+                        <div class="mock_toolbar">
+                            Research
+                        </div>
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-032-06744-9_3" title="Find Publication Here!">
+                            <img src="../images/textbook.jpg" class="project_image_container"></img>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id = "contact" class="contact_content">
+            <div class="subcontent_full_container">
+                <div class="contact_card">
+                    <img src="../images/headshot.jpeg" class="professional_photo"></img>
+                    <div class="nameplate">
+                    Carter Powell
+                    </div>
+                    <div class="contact_info_container">
+                    <p class="contact_info"> carter.t.powell@gmail.com </p>
+                    <p class="contact_info"> 920 370 6442 </p>
+                    <p class="contact_info"> Cpowell14.github.io </p>
+                    <div class="contact_logos_container">
+                        <a href="https://github.com/Cpowell14" title="Find my Github Here!">
+                            <img src="../images/github.png" class="contact_logo"></img>
+                        </a>
+                        <a href="https://www.linkedin.com/in/carter-powell-4a20b2161/" title="Find my Linkedin Here!">
+                            <img src="../images/linkedin.png" class="contact_logo"></img>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100009562116180" title="Find my Facebook Here!">
+                            <img src="../images/facebook.png" class="contact_logo"></img>
+                    </div>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../js/scripting.js"></script>
+    </body>
+
+</html>
