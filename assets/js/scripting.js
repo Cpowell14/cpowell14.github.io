@@ -11,7 +11,7 @@ function moveIntoView(id) {
 
 function downloadResume() {
   const resume = document.createElement('a');
-  resume.href = "../images/Carter_Powell_Resume_2025.pdf"
+  resume.href = "./assets/images/Carter_Powell_Resume.pdf"
   resume.download = 'Carter_Powell_Resume.pdf';
   document.body.appendChild(resume);
   resume.click();
