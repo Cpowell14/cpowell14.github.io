@@ -359,7 +359,7 @@ li {
     margin-left: 2dvw;
     height: min(23dvh, 40dvw);
     width: 80dvw;
-    font-size: 1.75dvmin;
+    font-size: 0.85dvmax;
     line-height: 2dvw;
     color: white;
 }
@@ -372,7 +372,7 @@ li {
     height: min(23dvh, 40dvw);
     width: 80dvw;
     text-align: end;
-    font-size: 1.75dvmin;
+    font-size: 0.85dvmax;
     line-height: 2dvw;
     color: white;
 }
@@ -436,10 +436,12 @@ li {
     position: relative;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1dvmax;
+    font-size: 1.5dvmin;
     font-weight: 1000;
-    margin-top: 0dvmin;
+    margin-top: 0.5dvmin;
+    margin-bottom: 0dvmin;
     margin-left: 1dvmin;
+    line-height: 1.5dvmin;
     color: white;
 
 }
@@ -448,11 +450,12 @@ li {
     position: relative;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 0.85dvmax;
+    font-size: 1.5dvmin;
     font-style: italic;
     margin-top: 0dvmin;
     margin-left: 1dvmin;
-    line-height: 1dvmax;
+    margin-bottom: 0dvmin;
+    line-height: 1.5dvmin;
     color: rgba(255, 255, 255, 0.75);
 
 }
@@ -618,11 +621,11 @@ li {
 
 .nameplate {
     height: min(5dvh, 5dvw);
-    width: 25dvmax;
+    width: 25dvmin;
     margin: 0 auto;
     margin-top: min(2dvh, 2dvw);
     font-family: "Lucida Handwriting", cursive;
-    font-size: clamp(16px, 1.75dvmax, 64px);
+    font-size: 3dvmin;
     text-align: center;
     font-weight: 750;
     color: white;
@@ -644,9 +647,9 @@ li {
 }
 
 .contact_info {
-    font-size: clamp(12px, 1dvmax, 32px);
+    font-size: 2dvmin;
     font-family: 'Times New Roman', Times, serif;
-    line-height: 1.5dvmax;
+    line-height: 2.5dvmin;
 
 }
 
