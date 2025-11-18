@@ -11,4 +11,4 @@ for a handful of methods to contact me.
 
 //This readme will be updated as the project moves through stages of development//
 
-Version 0.2
+Version 0.3
