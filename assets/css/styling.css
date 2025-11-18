@@ -128,27 +128,41 @@
 h1 {
     color: white;
     text-align: center;
-    font-size: 12vmin;
+    font-size: 12dvmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2 {
     color: white;
     text-align: center;
+    font-size: 3dvmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    color:white;
+    text-align: center;
+    font-size: 2dvmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 p {
     color: white;
     text-align: center;
-    font-size: 3vmin;
+    font-size: 1.5dvmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 li {
     color:white;
+    text-align: left;
     font-size: 3vmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .banner_container {
@@ -195,10 +209,10 @@ a {
     border-radius: 100px;
     border: 0.25vmin solid rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 1vmin 0.1vmin;
-    font-family: 'Times New Roman', Times, serif;
     color: white;
     text-align: center;
-    font-size: clamp(6px, 1.5vmin, 24px);
+    font-size: 1.5dvmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
 }
 
@@ -276,18 +290,14 @@ a {
 }
 
 .intro_tag {
-    color: rgb(190, 190, 190);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3vmin;
+    color: rgba(255, 255, 255, 0.75);
     font-style: italic;
     padding-left: 10dvw;
     padding-right: 10dvw;
 }
 
 .resume_tag {
-    color: rgb(190, 190, 190);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3vmin;
+    color: rgba(255, 255, 255, 0.75);
     font-style: italic;
     padding-left: 10dvw;
     padding-right: 10dvw;
@@ -295,8 +305,6 @@ a {
 
 .subtext_tag {
     color: rgb(190, 190, 190);
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vmin;
     font-style: italic;
     padding-top: 10dvh;
     padding-left: 10dvw;
@@ -314,16 +322,16 @@ a {
     position: relative;
     margin-top: 3dvh;
     margin-bottom: 3dvh;
-    height: 10dvh;
-    width: 20dvw;
+    height: clamp(50px, 10dvh, 100px);
+    width: clamp(50px, 20dvw, 1000px);
     background-color: #5f5f5f;
     border-radius: 100px;
     border: 0.25vmin solid rgba(255, 255, 255, 0.5);
     box-shadow: 0 0 0.75vmin 0.1vmin;
-    font-family: 'Times New Roman', Times, serif;
     color: white;
     text-align: center;
-    font-size: clamp(6px, 3dvw, 24px);
+    font-size: 3dvmin;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
 }
 
@@ -370,9 +378,8 @@ a {
     position: relative;
     display: flex;
     justify-content: left;
-    height: min(3dvh, 3dvw);
-    margin-bottom: 2dvmin;
-    font-size: 2.5dvmin;
+    margin-top: 0dvmin;
+    margin-bottom: -0.5dvmin;
     font-weight: 1000;
     line-height: 2.5dvw;
     color: white;
@@ -382,9 +389,7 @@ a {
     position: relative;
     display: flex;
     justify-content: left;
-    height: min(20dvh, 37dvw);
-    font-size: 1.5dvmin;
-    line-height: 1.8dvw;
+    line-height: 1.65dvw;
     text-align: left;
     color: rgba(255, 255, 255, 0.75);
 }
@@ -403,11 +408,9 @@ a {
     position: relative;
     display: flex;
     justify-content: right;
-    height: min(3dvh, 3dvw);
-    margin-bottom: 2dvmin;
-    font-size: 2.5dvmin;
+    margin-top: 0dvmin;
+    margin-bottom: -0.5dvmin;
     font-weight: 1000;
-    line-height: 2.5dvw;
     color: white;
 }
 
@@ -415,9 +418,7 @@ a {
     position: relative;
     display: flex;
     justify-content: right;
-    height: min(20dvh, 37dvw);
-    font-size: 1.5dvmin;
-    line-height: 1.8dvw;
+    line-height: 1.65dvw;
     text-align: right;
     color: rgba(255, 255, 255, 0.75);
 }
@@ -444,7 +445,7 @@ a {
     position: relative;
     display: block;
     justify-content: center;
-    height: 32dvh;
+    height: calc(27dvh + 5dvmin);
     width: 40dvw;
     border: black 1px solid;
     border-radius: 10px 10px 10px 10px;
@@ -455,14 +456,15 @@ a {
     position: relative;
     display: flex;
     justify-content: center;
-    height: 5dvh;
+    height: 5dvmin;
     width: 40dvw;
+    margin: 0px;
     border: 1px white solid;
     border-radius: 10px 10px 0px 0px;
     background-color: #424242;
     text-align: center;
-    font-size: 3dvmin;
     font-weight: 1000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
 
@@ -480,8 +482,6 @@ a {
 .education_bold {
     position: relative;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5dvmin;
     font-weight: 1000;
     margin-top: 0.5dvmin;
     margin-bottom: 0dvmin;
@@ -494,8 +494,6 @@ a {
 .education_italic {
     position: relative;
     text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5dvmin;
     font-style: italic;
     margin-top: 0dvmin;
     margin-left: 1dvmin;
@@ -556,11 +554,11 @@ a {
 .subcontent_header_textbox1 {
     height: 5dvmin;
     width: 50dvw;
+    margin: 0px;
     border: 1px white solid;
     border-radius: 10px 10px 0px 0px;
     background-color: #424242;
     text-align: center;
-    font-size: 3dvmin;
     font-weight: 1000;
     color: white;
 }
@@ -588,11 +586,11 @@ a {
 .subcontent_header_textbox2 {
     height: 5dvmin;
     width: 50dvw;
+    margin: 0px;
     border: 1px white solid;
     border-radius: 10px 10px 0px 0px;
     background-color: #424242;
     text-align: center;
-    font-size: 3dvmin;
     font-weight: 1000;
     color: white;
 }
@@ -611,8 +609,6 @@ a {
 .project_bold1 {
     position: relative;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.75dvmin;
     font-weight: 1000;
     margin-top: 0.25dvmin;
     margin-bottom: 5px;
@@ -624,8 +620,6 @@ a {
 .project_bold2 {
     position: relative;
     text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5dvmin;
     margin-top: 0px;
     font-weight: 1000;
     padding: 0px;
@@ -638,8 +632,6 @@ a {
 .project_italic {
     position: relative;
     text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5dvmin;
     font-style: italic;
     margin-top: 0dvmin;
     margin-left: 1dvmin;
@@ -652,11 +644,11 @@ a {
 .mock_toolbar {
     height: 5dvmin;
     width: 25dvw;
+    margin: 0px;
     border: 1px white solid;
     border-radius: 10px 10px 0px 0px;
     background-color: #424242;
     text-align: center;
-    font-size: 3dvmin;
     font-weight: 1000;
     color: white;
 
@@ -728,8 +720,6 @@ a {
 }
 
 .contact_info {
-    font-size: 2dvmin;
-    font-family: 'Times New Roman', Times, serif;
     line-height: 2.5dvmin;
 
 }
